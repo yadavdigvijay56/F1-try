@@ -2,7 +2,7 @@
     text-decoration: none;
     padding: 0%;
     margin: 0%;
-    background: black;
+    background: rgb(17, 17, 17);
     
 }
 .nav{
@@ -109,65 +109,107 @@ button:hover{
     color: white;
     
 }
-.container{
-    width: 100%;
-    padding: 10px;
-    margin: 5px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: rgb(255, 255, 255);
-    border-radius: 15px;
-}
-.team{
-    width: 450px;
-    margin: 0 50px;
+.redbull{
+    height: 400px;
+    background: #0f0f0f;
+    width: 80%;
     border-radius: 25px;
-    background: white;
-}
-
-.container img{
-    display: block;
-    width: 100%;
-    border-radius: 25px;
-
-}
-.team:hover{
-    transform: scale(1.05);
-    z-index: 2;
-    filter: blur(1px); 
-    border-style:outset;
+    margin-left: 130px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    
     
 }
-.team h1{
-    text-align: center;
-    color: white;
+.redbull h1{
+    color: rgb(245, 245, 245);
+    margin-top: 10px;
+    border-bottom: 3px solid rgb(241, 240, 240);
+    border-radius: 15px;
+    color: rgb(255, 0, 0);
+    
+}
+.redbull img{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 40px;
+    
+}
+.redbull:hover{
+    border-top: 2px solid red;
+    border-right: 2px solid red;
     border-radius: 25px;
+    transform: scale(1.03);
+    z-index: 2;
+}
+.mclaren{
+    height: 400px;
+    background: #0f0f0f;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 130px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    
+    
+}
+.mclaren h1{
+    color: rgb(245, 245, 245);
+    margin-top: 10px;
+    border-bottom: 3px solid rgb(241, 240, 240);
+    border-radius: 15px;
+    color: rgb(255, 153, 0);
+    
+}
+.mclaren img{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 40px;
+    
+}
+.mclaren:hover{
+    border-top: 2px solid rgb(255, 153, 0);
+    border-right: 2px solid rgb(255, 153, 0);
+    border-radius: 25px;
+    transform: scale(1.03);
+    z-index: 2;
+}
+.AMG{
+    height: 400px;
+    background: #0f0f0f;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 130px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    
+    
+}
+.AMG h1{
+    color: rgb(245, 245, 245);
+    margin-top: 10px;
+    border-bottom: 3px solid rgb(241, 240, 240);
+    border-radius: 15px;
+    color:  rgb(0, 89, 255);
 
+    
 }
-.driver{
-    width: 100%;
-    background: white;
-    height:400px;
+.AMG img{
+    width: 350px;
+    height: 270px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 40px;
+    
 }
-.max{
-    color: rgb(0, 0, 0);
-    width: 100%;
-    background: white;
-    height: 250px;
-    padding:2%
-}
-.hal{
-    color: rgb(0, 0, 0);
-    width: 100%;
-    background: white;
-    height: 250px;
-    padding:2%
-}
-.vel{
-    color: rgb(0, 0, 0);
-    width: 100%;
-    background: white;
-    height: 250px;
-    padding:2%
+.AMG:hover{
+    border-top: 2px solid rgb(0, 89, 255);
+    border-right: 2px solid rgb(0, 89, 255);
+    border-radius: 25px;
+    transform: scale(1.03);
+    z-index: 2;
 }
